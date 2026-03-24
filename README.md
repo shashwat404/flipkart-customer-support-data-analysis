@@ -29,6 +29,6 @@ The dataset consists of **30,000 customer support interaction records**, where e
 | state                    | VARCHAR         | State of the customer                                                       |
 | channel                  | VARCHAR         | Support channel (Call Center, Chatbot, etc.)                                |
 | response_time            | VARCHAR         | SLA status of response time (Within SLA, Above SLA, Below SLA)              |
-| call_duration_minutes    | FLOAT           | Duration of the call in minutes                                             |
+| call_duration_minutes    | INT             | Duration of the call in minutes                                             |
 | call_center              | VARCHAR         | Call center handling the interaction (e.g., Delhi, Mumbai)                  |
 
