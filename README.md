@@ -4,13 +4,13 @@ Flipkart, founded in 2007, is a leading Indian e-commerce marketplace connecting
 Due to a decline in retention rates, this project analyzes customer support call data to identify key issues affecting customer experience.
 It evaluates factors like issue type, resolution time, channels, and regional trends to uncover actionable insights for improving service quality and retention.<br><br>
 Insights and recommendations are provided on the following key areas:
-- Issue Type & CSAT Analysis: Evaluation of customer issues and their impact on CSAT
+- **Issue Type & CSAT Analysis**: Evaluation of customer issues and their impact on CSAT
 
-- Channel & Call Center Performance: Analysis of support channels and call centers to assess variations in CSAT and identify performance gaps across high-volume centers.
+- **Channel & Call Center Performance**: Analysis of support channels and call centers to assess variations in CSAT and identify performance gaps across high-volume centers.
 
-- Regional & Temporal Trends: Examination of CSAT variations across states, along with trends over time and day-level patterns affecting customer satisfaction.
+- **Regional & Temporal Trends**: Examination of CSAT variations across states, along with trends over time and day-level patterns affecting customer satisfaction.
 
-- Operational Metrics & Sentiment Impact: Assessment of response time, call duration, and customer sentiment to determine their influence on CSAT
+- **Operational Metrics & Sentiment Impact**: Assessment of response time, call duration, and customer sentiment to determine their influence on CSAT
 
 # Data Structure & Initial Checks
 
@@ -31,4 +31,10 @@ The dataset consists of **30,000 customer support interaction records**, where e
 | response_time            | VARCHAR         | SLA status of response time (Within SLA, Above SLA, Below SLA)              |
 | call_duration_minutes    | INT             | Duration of the call in minutes                                             |
 | call_center              | VARCHAR         | Call center handling the interaction (e.g., Delhi, Mumbai)                  |
+
+# Project Resources
+
+- **Dashboard (Excel):** [Download Excel Dashboard](dashboard/dashboard.xlsx)
+- **Full Report (PDF):** [Download Project Report](report/final_report.pdf)
+- **Cleaned Dataset:** [Download xlsx](data/cleaned_data/Cleaned_Data.xlsx)
 
